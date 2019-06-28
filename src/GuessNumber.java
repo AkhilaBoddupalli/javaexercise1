@@ -1,15 +1,15 @@
 import java.util.Scanner;
-public class Guess {
+public class GuessNumber {
     public static void main(String[] args)
     {
         int n;
        Scanner input=new Scanner(System.in);
        System.out.println("Enter a number");
        n=input.nextInt();
-       Guess obj=new Guess();
-       obj.guessnumber(n);
+       GuessNumber obj=new GuessNumber();
+       obj.guess(n);
     }
-    public void guessnumber(int n)
+    public void guess(int n)
 
     {
         int target=25;
