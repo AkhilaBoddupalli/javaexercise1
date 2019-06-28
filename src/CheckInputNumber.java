@@ -1,4 +1,4 @@
-package com.company;
+package PACKAGE_NAME;
 
 public class CheckInputNumber {
 }
